@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 18, 2023 at 09:24 PM
+-- Generation Time: May 18, 2023 at 09:55 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -140,7 +140,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'AKIMANA', 'gabsonbill@yahoo.com', NULL, '$2y$10$bLDGlcG7.uEqJMeMQY2gRuICis9XgMU47S4qUt9uDFwOhirhprFJy', NULL, '2023-05-17 16:26:17', '2023-05-17 17:56:21');
+(1, 'AKIMANA', 'gabsonbill@yahoo.com', NULL, '$2y$10$bLDGlcG7.uEqJMeMQY2gRuICis9XgMU47S4qUt9uDFwOhirhprFJy', NULL, '2023-05-17 16:26:17', '2023-05-17 17:56:21'),
+(2, 'gabriel', 'admin@library', NULL, '$2y$10$bnoZYsGQ86N8a3pLDsc1vuXkioZuCuG.56a1UrwobvAXNS5TT5zEa', NULL, '2023-05-18 17:52:24', '2023-05-18 17:52:24');
 
 --
 -- Indexes for dumped tables
@@ -218,7 +219,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
